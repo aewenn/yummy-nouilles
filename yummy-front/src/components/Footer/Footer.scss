@@ -1,0 +1,28 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 184px;
+    width: 100%;
+
+    @media screen and (min-width:1020px) {
+        height: 216px;
+        justify-content: flex-end;
+    }
+
+    .social_icons {
+        display: flex;
+        gap: 36px;
+
+        @media screen and (min-width:1020px) {
+            gap: 56px;
+            margin-right: 56px;
+        }
+
+        img {
+            width: 36px;
+            height: 36px;
+        }
+    }
+}

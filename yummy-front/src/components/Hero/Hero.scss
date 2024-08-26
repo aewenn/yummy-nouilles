@@ -1,0 +1,41 @@
+.top_home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+        font-family: "Bebas Neue", system-ui;
+        font-size: 40px;
+        font-weight: 400;
+        margin: 0;
+        padding: 0;
+    }
+
+    p {
+        text-align: center;
+        font-family: "Montserrat", system-ui;
+        font-size: 16px;
+        font-weight: 600;
+        width: 211px;
+        margin: 0;
+        padding-bottom: 16px;
+
+        span {
+            color: #D2483D;
+        }
+    }
+
+    button {
+        background: #000;
+        color: #FFF;
+        font-family: "Bebas Neue";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 256px;
+        height: 48px;
+        border: none;
+        cursor: pointer;
+    }
+}

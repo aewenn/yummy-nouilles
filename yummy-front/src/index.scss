@@ -1,0 +1,46 @@
+/* General */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--light-grey, #F3F3F3);
+}
+
+ul {
+    list-style-type: none;
+    font-family: "Bebas Neue", system-ui;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.link-active {
+    text-decoration: underline;
+    text-decoration-color: #D2483D;
+    text-decoration-thickness: 2px;
+}
+
+
+/* Header */
+
+@import "./components/Header/Header.scss";
+
+/* Footer */
+
+@import "./components/Footer/Footer.scss";
+
+/* Hero */
+
+@import "./components/Hero/Hero.scss";
+
+
+/* Pages */
+
+@import "./pages/Home/Home.scss";
+
+@import "./pages/Menu/Menu.scss";
+
+@import "./pages/Contact/Contaxt.scss";
